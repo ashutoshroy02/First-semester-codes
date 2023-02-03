@@ -1,0 +1,29 @@
+//C CODE FOR SWAPING THE VALUE
+#include <stdio.h>
+int main() 
+{
+   int a,b,c;
+   printf("enter no. A ");
+   scanf("%d",&a);
+   printf("enter no. B ");
+   scanf("%d",&b);
+   printf("enter no. C ");
+   scanf("%d",&c);
+   if (a>b && a>c)
+    {
+        printf("%d is the greatest no. ",a);
+    }
+    else if (b>a&&b>c)
+    {
+        printf("%d is the greatest no. ",b);
+    }
+    else if (c>a&&c>b)
+    {
+        printf("%d is the greatest no. ",c);
+    }
+    else 
+    {
+   printf("\nEither any two values or all the three values are equal");
+    } 
+ return 0;
+}
