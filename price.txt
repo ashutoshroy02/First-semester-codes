@@ -1,0 +1,21 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int price,quantity,a,b;
+   price = a;
+   quantity = b;
+    printf("enter the price ");
+    scanf(" %d",&a);
+    printf("enter the quantity ");
+    scanf(" %d",&b);
+    if (b>=1000)
+    {
+        printf("your total expense is Rs. %.2f", (a * b)- 0.1*(a*b));
+    }
+    else 
+    {
+        printf("your total expense is Rs. %.2f",a*b);
+    }
+    return 0;
+}

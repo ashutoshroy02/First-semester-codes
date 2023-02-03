@@ -1,0 +1,35 @@
+ // program for exponent table
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int a,b,c,d,e,f,g,h,i,j,k;
+     printf("enter a no.\n");
+     scanf ("%d",&a);
+    
+    c= pow(2,a);
+    d= pow(3,a);
+    e= pow(4,a);
+    f= pow(5,a);
+    g= pow(6,a);
+    h= pow(7,a);
+    i= pow(8,a);
+    j= pow(9,a);
+    k= pow(10,a);
+    
+    
+    
+     printf(" \n%d",c);
+     printf(" \n%d",d);
+     printf(" \n%d",e);
+     printf(" \n%d",f);
+     printf(" \n%d",g);
+     printf(" \n%d",h);
+     printf(" \n%d",i);
+     printf(" \n%lld",j);
+     printf(" \n%lld",k);
+     
+return 0;
+}
+
+

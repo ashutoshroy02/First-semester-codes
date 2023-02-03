@@ -1,0 +1,13 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main()
+{
+    float price, quantity;
+    printf("enter the price ");
+    scanf(" %f",&price);
+    printf("enter the quantity ");
+    scanf(" %f",&quantity);
+ quantity >= 1000 ? printf("your total expense is Rs. %.2f", (price *quantity )- 0.1*(price*quantity)) : printf("your total expense is Rs. %.2f", (price * quantity));
+   return 0;
+}

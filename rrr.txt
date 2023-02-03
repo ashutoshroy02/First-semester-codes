@@ -1,0 +1,83 @@
+// program for power of an number
+#include <stdio.h>
+#include<math.h>
+int main() 
+{
+   int a,b,c, d, e,f,g,h,i,j;   //defining the integer
+  //funtion of power 
+  printf("enter the number :  ");
+  scanf("%d", &a);
+   b = pow(2,a);
+   c = pow(3,a);
+   d = pow(4,a);
+   e = pow(5,a);
+   f = pow(6,a);
+   g = pow(7,a);
+   h = pow(8,a);
+   i = pow(9,a);
+   j = pow(10,a);
+   
+   //print of power output 
+ 
+   printf("1 ^ %d = %d\n",a,b );
+   printf("2 ^ %d = %d\n",a,c );
+   printf("3 ^ %d = %d\n",a,d );
+   printf("4 ^ %d = %d\n",a,e );
+   printf("5 ^ %d = %d\n",a,f );
+   printf("6 ^ %d = %d\n",a,g );
+   printf("7 ^ %d = %d\n",a,h );
+   printf("8 ^ %d = %d\n",a,i );
+   printf("9 ^ %d = %d\n",a,j );
+  
+ 
+      printf("THANK YOU");
+   
+   return 0;
+   
+}
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+ 
+ 
+   
+   
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+ 
+ 
+   
+   
+   
